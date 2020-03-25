@@ -40,3 +40,24 @@ Input:
 
 Output:
 A text-tab file with the name of the primer, the amplicon start and end and the average depth of that amplicon.
+
+
+## Primer sequence analysis
+
+### Checking the primer location
+
+Perl script used to check the location of primers on a reference and produce a BEDPE output file for each primer pair.
+
+```
+perl CheckPrimerLocation.pl -fasta ref.fa.txt -primer nCoV-2019.csv -bedpe primer.bedpe > Primer_locations.txt
+```
+
+Inputs are:
+1. The reference sequence in fasta format
+2. A csv or tsv list of primers with name in first column and sequence in thrid column
+
+Output:
+1. To screen the name of the primer and start and end position
+2. A BEDPE formatted file 
+
+  
