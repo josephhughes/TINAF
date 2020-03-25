@@ -1,0 +1,1 @@
+../Illumina/batch7c/Script/loopilluminaamplicon.sh
