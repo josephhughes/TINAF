@@ -8,7 +8,7 @@ Scripts for processing metadata from GISAID and reconstructing phylogeny
 Bash script for looping through a directory of fastq files and creating a bam file. Created to process amplicon sequencing.
 
 ```
-loopilluminaamplicon.sh /fastq_files/ ref.fa primer.bedpe & 
+loopilluminaamplicon.sh /path/to/fastq_files/ ref.fa primer.bedpe & 
 ```
 
 Inputs provided in the following order:
